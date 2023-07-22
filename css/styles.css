@@ -1,0 +1,206 @@
+
+body{
+    background-color: rgb(235, 235, 235);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+p{
+    padding-left: 10px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.first-attribute{
+    padding-top: 8px;
+    color: rgb(216, 144, 0);
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.266);
+}
+
+.second-attribute{
+
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 30px;
+
+}
+
+
+.third-attribute{
+    color: rgb(215, 215, 215);
+}
+
+.fourth-attribute{
+    color: rgb(168, 168, 168);
+    margin-bottom: 20px;
+    
+}
+
+
+
+.background{
+    padding-top: 50px;
+}
+
+.machineBorder{
+    border: 2px solid rgba(143, 143, 143, 0.566);
+    width: 300px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 3px 1px 10px rgb(255, 255, 255);
+
+}
+
+.white{
+    background-image:linear-gradient(
+        to right,
+         rgb(171, 171, 171),
+         rgb(227, 227, 227),
+         rgb(203, 203, 203),
+         rgb(245, 245, 245),
+         rgb(255, 255, 255),
+         rgb(255, 255, 255),
+         rgb(245, 245, 245),
+         rgb(210, 210, 210)
+         );
+    width: 300px;
+    margin: auto;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.black{
+    background-image:linear-gradient(
+        to right,
+         rgb(0, 0, 0),
+         rgb(30, 30, 30),
+         rgb(29, 29, 29),
+         rgb(35, 35, 35),
+         rgb(35, 35, 35),
+         rgb(25, 25, 25),
+         rgb(13, 13, 13),
+         rgb(32, 32, 32),
+         rgb(32, 32, 32),
+         rgb(0, 0, 0)
+         );
+    width: 300px;
+    margin: auto;
+    border-radius: 15px;
+    padding-bottom: 20px;
+
+}
+
+
+.color{
+    /* background-color: rgb(121, 31, 31); */
+    width: 90%;
+    margin: auto;
+}
+
+.speaker{
+    width: 80px;
+    height: 5px;
+    background-color: black;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+}
+
+.player{
+    /* background-color: yellow; */
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    margin-bottom: -10px;
+    border-radius: 5px;
+    border-right: 2px solid rgb(72, 72, 72);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(99, 99, 99);
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+
+
+}
+
+iframe{
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    
+    
+}
+
+.list-screen{
+    border-radius: 5px;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(24, 24, 24);
+    overflow: scroll;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.526);
+ 
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.262);
+}
+
+h3{
+    color: orange;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.display{
+
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 30px;
+    padding-top: 8px;
+    display: inline-block;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.477);
+}
+.controlers{
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.mkt{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 30%
+}
+h2{
+    font-size: 2.5rem;
+}
+h4{
+    color: rgb(157, 157, 157);
+}
+
+
+#black, #white{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(42, 42, 42);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+
+}
+
+#white{
+    background-color: white;
+}
+
